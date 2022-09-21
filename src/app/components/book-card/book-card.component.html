@@ -1,0 +1,8 @@
+<!-- one-way Data binding allows us to bind a variable from TypeScript to html -->
+<h2>Title: {{title}}</h2>
+<img src="{{url}}">
+<p>by {{author}}</p>
+<!-- event binding: we can bind events from TS to html -->
+<button (click)="like()">like</button>
+<!-- structural directive: we can use angular to modify the structure fo the DOM on the fly. -->
+<p *ngIf="liked">You like this book!</p>

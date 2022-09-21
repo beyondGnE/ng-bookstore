@@ -1,0 +1,7 @@
+<!-- <router-outlet></router-outlet> -->
+<div *ngFor="let book of books">
+    <app-book-card
+        [title]="book.title"
+        [url]="book.imgUrl">
+    </app-book-card>
+</div>
